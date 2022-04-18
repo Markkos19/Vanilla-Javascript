@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll To see Magic Again</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2 class="title">Scroll To see Magic Again</h2>
+    <section></section>
+    <div class="container">
+        <h2>Also Watch Part 1 And 2..Link in Video Description</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, tempora exercitationem velit mollitia pariatur dolorem sapiente sed illo quia? Quos eos odit sunt veritatis ducimus aut eaque quibusdam harum fugit. <br><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora, corrupti sit quibusdam ut aperiam perspiciatis excepturi nostrum repellendus eum a numquam rem iusto laborum porro sint explicabo sapiente sunt est. <br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsam hic accusamus nihil laboriosam quam quaerat enim nulla tempora nostrum excepturi, expedita dignissimos totam dolorem corrupti aspernatur iusto eius eum!</p>
+    </div>
+
+    <script>
+        let section = document.querySelector('section')
+        window.addEventListener('scroll', function() {
+            let value = window.scrollY
+            section.style.clipPath = 'circle('+ value +'px  at center)'
+        })
+    </script>
+</body>
+</html>
