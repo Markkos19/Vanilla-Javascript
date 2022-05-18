@@ -47,7 +47,7 @@ h3 {
     content: '';
     position: absolute;
     right: 12px;
-    top: 9 px;
+    top: 11px;
     width: 24px;
     height: 24px;
     background: url(img/invalid.png);
@@ -58,7 +58,7 @@ h3 {
     content: '';
     position: absolute;
     right: 12px;
-    top: 9 px;
+    top: 11px;
     width: 24px;
     height: 24px;
     background: url(img/valid.png);
